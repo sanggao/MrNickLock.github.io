@@ -3,41 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[local]]></title>
-      <url>/2017/06/03/local/</url>
-      <content type="html"><![CDATA[<pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">A</span>
-<span class="token punctuation">{</span>
-    <span class="token keyword">int</span> x <span class="token punctuation">;</span>
-    System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"ff"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>/2017/06/03/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[团委网站发布说明]]></title>
       <url>/2017/05/24/%E5%9B%A2%E5%A7%94%E7%BD%91%E7%AB%99%E5%8F%91%E5%B8%83%E8%AF%B4%E6%98%8E/</url>
       <content type="html"><![CDATA[<h1 id="数据库-sql-server-2012-兼容2005"><a href="#数据库-sql-server-2012-兼容2005" class="headerlink" title="数据库(sql server 2012 兼容2005)"></a>数据库(sql server 2012 兼容2005)</h1><blockquote>
@@ -56,16 +21,16 @@
       
         <categories>
             
-            <category> Diary </category>
+            <category> code </category>
             
         </categories>
         
         
         <tags>
             
-            <tag> PS3 </tag>
+            <tag> readme </tag>
             
-            <tag> Games </tag>
+            <tag> 项目说明 </tag>
             
         </tags>
         
@@ -80,6 +45,12 @@
 <p><img src="http://ontpyo03p.bkt.clouddn.com/1493728906424.jpg" alt="注册"></p>
 ]]></content>
       
+        <categories>
+            
+            <category> code </category>
+            
+        </categories>
+        
         
         <tags>
             
@@ -88,6 +59,135 @@
             <tag> 开源项目 </tag>
             
             <tag> readme </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[sqoop]]></title>
+      <url>/2017/04/06/sqoop/</url>
+      <content type="html"><![CDATA[<pre><code>大数据:spark(scala),storm,flink,hbase(redis,newSql),flume,kafka,HUE,ooize消息中间件,(metaQ,rabbitQ,kafka)
+平台(CM)
+
+java JVM调优
+人工智能AI
+数据挖掘,推荐系统(各种复杂的算法 线性回归,聚类,分类)
+离散数据,数据结构,统计学
+Spark sparkSql spark streaming spark mlib  mahout+pig
+用户画像
+
+java(设计模式,jvm调优,集合,多线程并发)大秒系统,hive(impala,tez，spark sql),mapreduce,hdfs
+linux
+</code></pre><h3 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h3><ol>
+<li><p>下载sqoop <a href="http://archive.cloudera.com/cdh5/cdh/5/(下载cdh版本地址" target="_blank" rel="external">http://archive.cloudera.com/cdh5/cdh/5/(下载cdh版本地址</a>)<br>cdh</p>
+</li>
+<li><p>上传tar包，并解压<br>tar -zxvf xxx.tar -C ../softwores/<br>unzip xxx.zip</p>
+</li>
+<li><p>配置sqoop-env.sh文件<br><a href="http://sqoop.apache.org/docs/1.4.5/SqoopUserGuide.html（文档说明）" target="_blank" rel="external">http://sqoop.apache.org/docs/1.4.5/SqoopUserGuide.html（文档说明）</a><br>配置<br><code>$SQOOP_HOEM/conf/sqoop-env.sh</code></p>
+</li>
+<li>copy mysql驱动到<br><code>$SQOOP_HOME/lib</code>目录下</li>
+<li>进行简单的测试</li>
+</ol>
+<pre class="line-numbers language-bash"><code class="language-bash">bin/sqoop list-databases \
+--connect jdbc:mysql://hadoop:3306 \
+--username root \
+--password 123456
+
+
+bin/sqoop list-tables \
+--connect jdbc:mysql://hadoop:3306/mysql \
+--username root \
+--password 123456
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="import-export-以hdfs为主体，以RDBMS-如mysql-为客体"><a href="#import-export-以hdfs为主体，以RDBMS-如mysql-为客体" class="headerlink" title="import|export  以hdfs为主体，以RDBMS(如mysql)为客体"></a>import|export  以hdfs为主体，以RDBMS(如mysql)为客体</h3><h4 id="import-mysql-gt-hdfs"><a href="#import-mysql-gt-hdfs" class="headerlink" title="import(mysql -&gt; hdfs):"></a>import(mysql -&gt; hdfs):</h4><p>drop tables if exists customer;<br>CREATE TABLE customer (<br>  id tinyint(4) NOT NULL AUTO_INCREMENT,<br>  name varchar(255) DEFAULT NULL,<br>  passwd varchar(255) DEFAULT NULL,<br>  PRIMARY KEY (id)<br>);<br>INSERT INTO customer VALUES (1, ‘admin’, ‘admin’);<br>INSERT INTO customer VALUES (2, ‘dehua’, ‘dehua’);<br>INSERT INTO customer VALUES (3, ‘system’, ‘123456’);<br>INSERT INTO customer VALUES (4, ‘jack’, ‘ja123’);<br>INSERT INTO customer VALUES (5, ‘lol’, ‘user123’);<br>INSERT INTO customer VALUES (6, ‘helloword’, ‘leijun’);<br>INSERT INTO customer VALUES (7, ‘beijing’, ‘hqph’);<br>INSERT INTO customer VALUES (8, ‘wumengda’, ‘123456’);<br>INSERT INTO customer2 VALUES (9, ‘canglaoshi’, ‘yamadei’);</p>
+<p>12,canglaoshi,111111<br>13,bolaoshi,123123<br>14,guanxige,123456</p>
+<p>import<br>bin/sqoop import –help</p>
+<p> –table 指定表名<br> –target-dir 指定导入路径<br> –as-parquetfile  导入的存储类型<br> -m,–num-mappers  指定map个数(在mysql创建表的时候,尽量添加主键)<br> –fields-terminated-by 行之间的分隔符<br> –columns <col,col,col...>  指定导入哪些字段<br> -e,–query <statement>  查询结果集<br> join<br> -z,–compress (指定压缩类型)<br> –compression-codec <codec>(具体是哪种压缩格式) snappy(lzo)<br> 压缩以及解压速度是很可观集群机器参差不齐 谷歌开源的压缩算法<br> –incremental <import-type> (增量的导入)<br> –direct(对导mysql的数据的优化)</import-type></codec></statement></col,col,col...></p>
+<p>(如果不指定目录，默认在当前用户目录下/user/root/ /user/用户名/)<br>(url,username,password,table)<br>目的：把mysql中customer表中的数据导入到hdfs之上<br>bin/sqoop import \<br>–connect jdbc:mysql://hadoop:3306/test \<br>–username root \<br>–password 123456 \<br>–table customer </p>
+<p>(指定目录，并设置map数,map数就是sqoop并行的体现,调整map个数是一种sqoop job的优化方式)<br>bin/sqoop import \<br>–connect jdbc:mysql://hadoop:3306/test \<br>–username root \<br>–password 123456 \<br>–table customer \<br>–delete-target-dir \<br>–target-dir /user/root/sqoop/import_customer \<br>–num-mappers 1(-m 2)</p>
+<p>(指定存储到hdfs上的存储的格式)<br>bin/sqoop import \<br>–connect jdbc:mysql://hadoop:3306/test \<br>–username root \<br>–password 123456 \<br>–table customer \<br>–target-dir /user/root/sqoop/txt_import \<br>–fields-terminated-by ‘,’ \<br>–delete-target-dir \<br>-m 1 \<br>–as-textfile</p>
+<p>bin/sqoop import \<br>–connect jdbc:mysql://hadoop:3306/test \<br>–username root \<br>–password 123456 \<br>–table customer \<br>–target-dir /user/root/sqoop/parquet_import \<br>–fields-terminated-by ‘,’ \<br>–delete-target-dir \<br>–num-mappers 2 \<br>–as-parquetfile </p>
+<p>(在hive中创建表)<br>drop table if exists hive_user_parquet;<br>create table hive_user_parquet(<br>id int,<br>username string,<br>password string<br>)<br>ROW FORMAT DELIMITED FIELDS TERMINATED BY ‘,’<br>STORED AS parquet ;<br>load data inpath ‘/user/root/sqoop/parquet_import’ into table hive_user_parquet;</p>
+<p>drop table if exists hive_user_textfile ;<br>create table hive_user_textfile(<br>id int,<br>username string,<br>password string<br>)<br>ROW FORMAT DELIMITED FIELDS TERMINATED BY ‘,’<br>STORED AS textfile ;<br>load data inpath ‘/user/root/sqoop/txt_import’ into table hive_user_textfile;</p>
+<p>parquet格式为null((1.4.5的bug)1.4.6)</p>
+<p>(指定导入的字段，为过滤字段)<br>bin/sqoop import \<br>–connect jdbc:mysql://hadoop:3306/test \<br>–username root \<br>–password 123456 \<br>–table customer \<br>–target-dir /user/root/sqoop/imp_customer_column \<br>–num-mappers 1 \<br>–columns id,name</p>
+<p>bin/sqoop import \<br>–connect jdbc:mysql://hadoop:3306/test \<br>–username root \<br>–password 123456 \<br>–query ‘select id, name from customer’ \<br>–target-dir /user/root/sqoop/imp_my_user_query \<br>–num-mappers 1</p>
+<p>(在使用query关键字时，where条件必须加 ‘$CONDITIONS’ )<br>16/11/05 18:46:03 ERROR tool.ImportTool: Encountered IOException running import job: java.io.IOException: Query [select id, account from customer] must contain ‘$CONDITIONS’ in WHERE clause.<br>        at org.apache.sqoop.manager.ConnManager.getColumnTypes(ConnManager.java:300)<br>        at org.apache.sqoop.orm.ClassWriter.getColumnTypes(ClassWriter.java:1833)<br>        at org.apache.sqoop.orm.ClassWriter.generate(ClassWriter.java:1645)<br>        at org.apache.sqoop.tool.CodeGenTool.generateORM(CodeGenTool.java:96)<br>        at org.apache.sqoop.tool.ImportTool.importTable(ImportTool.java:478)<br>        at org.apache.sqoop.tool.ImportTool.run(ImportTool.java:605)<br>        at org.apache.sqoop.Sqoop.run(Sqoop.java:143)<br>        at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)<br>        at org.apache.sqoop.Sqoop.runSqoop(Sqoop.java:179)<br>        at org.apache.sqoop.Sqoop.runTool(Sqoop.java:218)<br>        at org.apache.sqoop.Sqoop.runTool(Sqoop.java:227)<br>        at org.apache.sqoop.Sqoop.main(Sqoop.java:236)</p>
+<p>bin/sqoop import \<br>–connect jdbc:mysql://hadoop:3306/test \<br>–username root \<br>–password 123456 \<br>–query ‘select id, name from customer where $CONDITIONS’ \<br>–target-dir /user/root/sqoop/imp_customer_query \<br>–delete-target-dir \<br>–num-mappers 1</p>
+<p>(在sqoop中使用压缩)<br>–compress<br>–compression-codec</p>
+<p>(导入到hdfs的数据时压缩过，然后在Hive里面创建表，将压缩过的数据给load进去)<br>bin/sqoop import \<br>–connect jdbc:mysql://hadoop:3306/test \<br>–username root \<br>–password 123456 \<br>–table customer \<br>–target-dir /user/root/sqoop/imp_my_snappy2 \<br>–delete-target-dir \<br>–num-mappers 2 \<br>–compress \<br>–compression-codec org.apache.hadoop.io.compress.SnappyCodec</p>
+<p>drop table if exists customer_snappy2 ;<br>create table default.customer_snappy2(<br>id int,<br>username string,<br>password string<br>)<br>ROW FORMAT DELIMITED FIELDS TERMINATED BY ‘,’ ;<br>load data inpath ‘/user/root/sqoop/imp_my_snappy2’ into table customer_snappy2 ;</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> big data </tag>
+            
+            <tag> sqoop </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hive]]></title>
+      <url>/2017/04/05/Hive/</url>
+      <content type="html"><![CDATA[<h1 id="hive-入门"><a href="#hive-入门" class="headerlink" title="hive 入门"></a>hive 入门</h1><h2 id="hive简介"><a href="#hive简介" class="headerlink" title="hive简介"></a>hive简介</h2><ul>
+<li>hive 是SQL解析引擎，将SQL转化为MR job 在hadoop执行</li>
+<li>hive表即 hdfs 的目录/文件夹（按照表名将文件夹分开）<ul>
+<li>若为分区表，则分区值是子文件夹</li>
+</ul>
+</li>
+</ul>
+<h2 id="hive系统架构"><a href="#hive系统架构" class="headerlink" title="hive系统架构"></a>hive系统架构</h2><ul>
+<li><p>用户接口</p>
+<ul>
+<li>CLI 命令行客户端</li>
+<li>JDBC/ODBC</li>
+<li>WebUI</li>
+</ul>
+</li>
+<li><p>元数据存储 metastore </p>
+<ul>
+<li>derby（默认）</li>
+<li>mysql 等</li>
+</ul>
+</li>
+<li><p>解释器、编译器、优化器、执行器</p>
+</li>
+<li>hadoop：用hdfs进行存储，用MR进行计算</li>
+</ul>
+<blockquote>
+<p>元数据 存于metastore<br>（实际）数据存于 HDFS ：库表以文件夹形式，数据以文件形式</p>
+</blockquote>
+<h2 id="mysql中元数据"><a href="#mysql中元数据" class="headerlink" title="mysql中元数据"></a>mysql中元数据</h2><ul>
+<li>TBLS，表</li>
+<li>COLUMN_V2 字段</li>
+<li>SDS 位置</li>
+</ul>
+<h2 id="外部表"><a href="#外部表" class="headerlink" title="外部表"></a>外部表</h2><blockquote>
+<p>查看表结构<br>?select create table?</p>
+</blockquote>
+<pre class="line-numbers language-sql"><code class="language-sql"><span class="token keyword">create</span> external <span class="token keyword">table</span>
+    stu 
+    <span class="token punctuation">(</span>stuno <span class="token keyword">int</span><span class="token punctuation">,</span>name string<span class="token punctuation">)</span> 
+    <span class="token keyword">row</span> format delimited <span class="token keyword">fields</span> <span class="token keyword">terminated by</span> <span class="token string">'\t'</span> 
+    location <span class="token string">'/stu'</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="分区表"><a href="#分区表" class="headerlink" title="分区表"></a>分区表</h2><pre class="line-numbers language-sql"><code class="language-sql"><span class="token keyword">create</span> external <span class="token keyword">table</span> stu <span class="token punctuation">(</span><span class="token keyword">int</span> stuno<span class="token punctuation">,</span>string name<span class="token punctuation">)</span> <span class="token keyword">row</span> format delimited <span class="token keyword">fields</span> <span class="token keyword">terminated by</span> <span class="token string">'\t'</span> location <span class="token string">'/stu'</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> big date </tag>
+            
+            <tag> hive </tag>
             
         </tags>
         
