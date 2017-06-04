@@ -123,9 +123,7 @@ bin/sqoop list-tables \
         
         <tags>
             
-            <tag> 学习笔记 </tag>
-            
-            <tag> big data </tag>
+            <tag> 学习笔记 - &#39;big data&#39; </tag>
             
             <tag> sqoop </tag>
             
@@ -186,8 +184,6 @@ bin/sqoop list-tables \
         <tags>
             
             <tag> 学习笔记 </tag>
-            
-            <tag> big date </tag>
             
             <tag> hive </tag>
             
