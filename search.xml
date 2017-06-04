@@ -65,7 +65,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[sqoop]]></title>
+      <title><![CDATA[Sqoop]]></title>
       <url>/2017/04/06/sqoop/</url>
       <content type="html"><![CDATA[<pre><code>大数据:spark(scala),storm,flink,hbase(redis,newSql),flume,kafka,HUE,ooize消息中间件,(metaQ,rabbitQ,kafka)
 平台(CM)
@@ -123,10 +123,11 @@ bin/sqoop list-tables \
         
         <tags>
             
-            <tag> sqoop </tag>
+            <tag> 学习笔记 </tag>
             
-            <tag> 学习笔记
-- 大数据 </tag>
+            <tag> 大数据 </tag>
+            
+            <tag> Sqoop </tag>
             
         </tags>
         
@@ -184,11 +185,11 @@ bin/sqoop list-tables \
         
         <tags>
             
-            <tag> github </tag>
+            <tag> 学习笔记 </tag>
             
-            <tag> 开源项目 </tag>
+            <tag> 大数据 </tag>
             
-            <tag> readme </tag>
+            <tag> Hive </tag>
             
         </tags>
         
