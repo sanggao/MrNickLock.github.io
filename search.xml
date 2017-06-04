@@ -123,7 +123,8 @@ bin/sqoop list-tables \
         
         <tags>
             
-            <tag> 学习笔记 - 大数据 </tag>
+            <tag> 学习笔记
+- 大数据 </tag>
             
             <tag> sqoop </tag>
             
