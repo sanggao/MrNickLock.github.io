@@ -123,10 +123,10 @@ bin/sqoop list-tables \
         
         <tags>
             
+            <tag> sqoop </tag>
+            
             <tag> 学习笔记
 - 大数据 </tag>
-            
-            <tag> sqoop </tag>
             
         </tags>
         
@@ -184,11 +184,11 @@ bin/sqoop list-tables \
         
         <tags>
             
-            <tag> 学习笔记 </tag>
+            <tag> github </tag>
             
-            <tag> 大数据 </tag>
+            <tag> 开源项目 </tag>
             
-            <tag> hive </tag>
+            <tag> readme </tag>
             
         </tags>
         
