@@ -185,6 +185,8 @@ bin/sqoop list-tables \
         
         <tags>
             
+            <tag> 学习笔记 </tag>
+            
             <tag> big date </tag>
             
             <tag> hive </tag>
