@@ -3,34 +3,47 @@
   
     
     <entry>
-      <title><![CDATA[小书匠]]></title>
-      <url>/2017/06/06/%E5%B0%8F%E4%B9%A6%E5%8C%A0/</url>
-      <content type="html"><![CDATA[<p>小书匠写博测试</p>
-<h1 id="你从哪里来"><a href="#你从哪里来" class="headerlink" title="你从哪里来"></a>你从哪里来</h1>]]></content>
+      <title><![CDATA[Hexoの备忘录]]></title>
+      <url>/2017/06/10/Hexo%E3%81%AE%E5%A4%87%E5%BF%98%E5%BD%95/</url>
+      <content type="html"><![CDATA[<p>~个人hexo博客的使用经验记录~</p>
+<h3 id="快速新建博文（搭配cmder）"><a href="#快速新建博文（搭配cmder）" class="headerlink" title="快速新建博文（搭配cmder）"></a>快速新建博文（搭配cmder）</h3><blockquote>
+<p>笔者win10，自定义批处理命令置于mycmd下</p>
+</blockquote>
+<ul>
+<li>mycmd下新建blog.bat</li>
+<li>写入命令如下：</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> d:\GoogleDrive\NoteBook\blog\source\_posts <span class="token comment" spellcheck="true">#切入博文目录</span>
+explorer <span class="token keyword">.</span>  <span class="token comment" spellcheck="true">#在资源管理器中打开当前目录</span>
+hexo new %1 <span class="token comment" spellcheck="true">#新建指定名称的博文</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<p>键入<code>blog 博文标题</code>命令，<code>hexo new %1</code> 接收传递的第一个参数 <code>%1</code> 作为新博文名称。</p>
+</blockquote>
+<p><em>注</em>：原计划新建博文，并用sublime打开编辑，无奈hexo new命令之后就中断了，退而求其次，才有了如上方法。日后改进。</p>
+<h3 id="博客源文件备份（搭配GoogleDrive）"><a href="#博客源文件备份（搭配GoogleDrive）" class="headerlink" title="博客源文件备份（搭配GoogleDrive）"></a>博客源文件备份（搭配GoogleDrive）</h3><ul>
+<li>科学上网</li>
+<li>GoogleDrive关联本地，新建blog文件夹</li>
+<li>在blog文件夹中初始化Hexo</li>
+</ul>
+<p><strong>优点</strong>：实时同步，还有回收站，安全有保障；</p>
+<p><strong>缺点</strong>：source文件夹和public文件夹重复的文件都会占用云盘空间</p>
+<h3 id="自动检测文件变化并编译（安装-Hexo-Server）"><a href="#自动检测文件变化并编译（安装-Hexo-Server）" class="headerlink" title="自动检测文件变化并编译（安装 Hexo Server）"></a>自动检测文件变化并编译（安装 Hexo Server）</h3><blockquote>
+<p>参考hexo官方文档</p>
+</blockquote>
+]]></content>
       
-        <categories>
-            
-            <category> 笔记,博客,随笔 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 随笔 </tag>
-            
-            <tag> 笔记 </tag>
-            
-            <tag> 博客 </tag>
-            
-        </tags>
         
     </entry>
     
     <entry>
       <title><![CDATA[随笔-毕业]]></title>
       <url>/2017/06/06/%E9%9A%8F%E7%AC%94-%E6%AF%95%E4%B8%9A/</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<p>临近毕业，琐事繁多。在忙碌中，记录下自己近日所想。</p>
+<h2 id="折腾-笔记-和-博客-的反思"><a href="#折腾-笔记-和-博客-的反思" class="headerlink" title="折腾 笔记 和 博客 的反思"></a>折腾 笔记 和 博客 的反思</h2><p>  自己大费周章地学习MarkDown、寻找中意的编辑器，尝试了众多（包括此刻正在用的 SublimeText3，还有马克飞象、小书匠、leanote蚂蚁笔记、有道云、印象笔记、为知笔记，以及简书、CSDN、OSChina开源中国、博客园等等……）。<br>But，最终还是回到了最简的 SublimeText3 ,因为轻快。</p>
+<p>再回想当初选择用MD写笔记，更多的是盲目地追求高逼格，现在更明白，用MD就是为了不用操心 排版、样式，更专注于内容，为的是高效快捷。然而，之前的我，太过于苛求华丽的预览，更多的拓展。恰恰是走了相反的方向。为此花费了大把的时间。</p>
+<p>待续……</p>
+]]></content>
       
         
         <tags>
