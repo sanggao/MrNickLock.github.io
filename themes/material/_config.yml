@@ -13,7 +13,7 @@ head:
 url:
     rss:
     daily_pic: "#"
-    logo: "#"
+    logo: "/about"
 
 
 # ---------------------------------------------------------------
@@ -87,34 +87,25 @@ card_elevation: 2
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    facebook: "https://www.facebook.com/facebook"
-    twitter: "https://twitter.com/twitter"
-    googleplus: "https://www.google.com/"
-    weibo:
-    instagram:
-    tumblr:
-    github:
-    linkedin:
-    zhihu:
-    bilibili:
-    telegram:
+    email: hanziqiabc@gmail.com
+    weibo: http://weibo.com/p/1005053983011337/home
+    github: https://github.com/MrNickLock
 
 # SNS Share Switch
 sns_share:
+    qq: true
+    weibo: true
     twitter: true
     facebook: true
-    googleplus: true
-    weibo: true
+    googleplus: false
     linkedin: false
-    qq: false
     telegram: false
 
 # Sidebar Customize
 sidebar:
     dropdown:
         Email Me:
-            link: "#"
+            link: "mailto:hanziqiabc@gmail.com"
             icon: email
     homepage:
         use: true
@@ -125,20 +116,29 @@ sidebar:
         icon: inbox
         divider: false
     categories:
-        use: false
+        use: true
         icon: chrome_reader_mode
         divider: false
     pages:
-        #About:
-            #link: "/about"
-            #icon: person
-            #divider: false
+        图集:
+            link: "/gallery"
+            icon: landscape
+            divider: false
+        标签云:
+            link: "/tags"
+            icon: loyalty
+            divider: false
+        关于:
+            link: "/about"
+            icon: person
+            divider: false
+        
     article_num:
         use: false
         divider: false
     footer:
-        divider: true
-        theme: true
+        divider: false
+        theme: false
         support: false
         feedback: false
         material: false
@@ -157,8 +157,8 @@ topPost: false
 # Available value of "use":
 #     duoshuo | disqus | disqus_click
 comment:
-    use:
-    shortname:
+    use: disqus
+    shortname: mrnicklock-github-io
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
@@ -166,13 +166,13 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
-    swiftype_key:
+     use: google
+    # swiftype_key:
 
 # Analytics Systems
 analytics:
-    baidu_id:
-    google_id:
+    baidu_id: 7ba84f960723e4fe6a5a6d1031129e5f
+    google_id: 
 
 # Leancloud Views
 leancloud:
