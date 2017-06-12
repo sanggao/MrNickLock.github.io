@@ -3,6 +3,9 @@ title: Hexoの备忘录
 date: 2017-06-10 15:50:47
 tags: 
 	- 工具
+
+thumbnail: 
+	pics/jrz.jpg
 ---
 
 ~个人hexo博客的使用经验记录~
