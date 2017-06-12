@@ -5,7 +5,7 @@ tags:
 	- 工具
 
 thumbnail: 
-	pics/jrz.jpg
+	/gallery/pics/jrz.jpg
 ---
 
 ~个人hexo博客的使用经验记录~
