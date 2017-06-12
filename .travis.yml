@@ -4,7 +4,7 @@ node_js: stable
 # S: Build Lifecycle
 install:
   - npm install
-
+  - npm i -S hexo-prism-plugin
 
 #before_script:
  # - npm install -g gulp
