@@ -157,7 +157,7 @@ topPost: false
 # Available value of "use":
 #     duoshuo | disqus | disqus_click
 comment:
-    use: disqus
+    use: disqus_click
     shortname: mrnicklock-github-io
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
