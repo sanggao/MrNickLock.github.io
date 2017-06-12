@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://material.viosey.com/intro/ -->
+<html class="mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta & INfo -->
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Material theme, an elegant &amp; Material Design theme.">
+	<meta name="keywords" content="Hexo, hexo, theme, hexo theme, viosey, material theme, material design, material 主题">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link rel="shortcut icon" href="https://material.viosey.com/intro/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://material.viosey.com/favicon.ico" type="image/x-icon">
+    <link href="./配置介绍 _ Material Theme_files/css" rel="stylesheet">
+
+    <!-- Title -->
+    
+    <title>
+        配置介绍 | Material Theme
+    </title>
+
+	<!-- Styles -->
+    <link rel="stylesheet" href="./配置介绍 _ Material Theme_files/material.min.css">
+    <link rel="stylesheet" href="./配置介绍 _ Material Theme_files/style.min.css">
+    <script async="" src="./配置介绍 _ Material Theme_files/analytics.js.下载"></script><script src="./配置介绍 _ Material Theme_files/jquery.min.js.下载"></script><script type="text/javascript">try {
+var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
+var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
+var AG_removeElementBySelector = function(selector) { if (!document.querySelectorAll) { return; } var nodes = document.querySelectorAll(selector); if (nodes) { for (var i = 0; i < nodes.length; i++) { if (nodes[i] && nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); } } } };
+var AG_each = function(selector, fn) { if (!document.querySelectorAll) return; var elements = document.querySelectorAll(selector); for (var i = 0; i < elements.length; i++) { fn(elements[i]); }; };
+var AG_removeParent = function(el, fn) { while (el && el.parentNode) { if (fn(el)) { el.parentNode.removeChild(el); return; } el = el.parentNode; } };
+} catch (ex) { console.error('Error executing AG js: ' + ex); }</script>
+</head>
+
+	
+    <body style="margin-top: 64px;">
+        
+        <div>
+            
+
+    <link rel="stylesheet" href="./配置介绍 _ Material Theme_files/docs.min.css">
+
+    <!-- Navigation -->
+    <div class="material-header mdl-layout__header mdl-layout__header--waterfall" style="box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px; opacity: 1;">
+    <div class="mdl-layout__header-row">
+        <a href="https://material.viosey.com/">
+            <span class="material-title mdl-layout-title">
+                <img class="material-logo-image" src="./配置介绍 _ Material Theme_files/logo-black.png">
+            </span>
+        </a>
+        <!-- Add spacer, to align navigation to the right in desktop -->
+        <div class="material-header-spacer mdl-layout-spacer"></div>
+
+        <div class="material-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width is-upgraded" data-upgraded=",MaterialTextfield">
+    <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field" data-upgraded=",MaterialButton">
+        <i class="material-icons">search</i>
+    </label>
+    <div class="mdl-textfield__expandable-holder">
+        <input name="q" class="mdl-textfield__input" type="text" id="search-field">
+    </div>
+</div>
+
+<div id="search-result"></div>
+
+        <div class="material-navigation-container">
+            <nav class="material-navigation mdl-navigation">
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://material.viosey.com/">主页</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://material.viosey.com/start/">开始使用</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://material.viosey.com/intro/">配置介绍</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://material.viosey.com/compose/">开始创作</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://material.viosey.com/expert/">进阶设定</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://material.viosey.com/services/">集成服务</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://material.viosey.com/donate/">捐赠</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://material.viosey.com/faq/">常见问题</a>
+            </nav>
+        </div>
+
+        
+            <div class="mdl-layout__drawer-button">
+				<i class="material-icons">menu</i>
+			</div>
+        
+
+        <a href="https://material.viosey.com/intro/">
+            <span class="material-mobile-title mdl-layout-title">
+                <img class="material-logo-image" src="./配置介绍 _ Material Theme_files/logo-small.png">
+            </span>
+        </a>
+
+        <div id="lang-select-wrap">
+            <label class="lang-select-label">
+                <img src="./配置介绍 _ Material Theme_files/globe.svg">
+            </label>
+            <select id="lang-select">
+                <option value="zh-cn">简体中文</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+
+    </div>
+</div>
+
+
+
+    <!-- Sidebar -->
+    <div class="material-drawer mdl-layout__drawer">
+    <span class="mdl-layout-title">
+          <img class="material-logo-image" src="./配置介绍 _ Material Theme_files/logo-white.png">
+        </span>
+    <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="https://material.viosey.com/">主页</a>
+        <a class="mdl-navigation__link" href="https://material.viosey.com/start/">开始使用</a>
+        <a class="mdl-navigation__link" href="https://material.viosey.com/intro/">配置介绍</a>
+        <a class="mdl-navigation__link" href="https://material.viosey.com/compose/">开始创作</a>
+        <a class="mdl-navigation__link" href="https://material.viosey.com/expert/">进阶设定</a>
+        <a class="mdl-navigation__link" href="https://material.viosey.com/services/">集成服务</a>
+        <a class="mdl-navigation__link" href="https://material.viosey.com/donate/">捐赠</a>
+        <a class="mdl-navigation__link" href="https://material.viosey.com/faq/">常见问题</a>
+
+        <div class="material-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">帮助与支持</span>
+        <a class="mdl-navigation__link" href="https://gitter.im/material-theme/hexo" target="_blank">加入讨论</a>
+        <a class="mdl-navigation__link" href="https://github.com/viosey/hexo-theme-material/issues" target="_blank">问题反馈</a>
+
+        <div class="material-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">捐赠</span>
+        <a href="https://www.paypal.me/viosey" target="_blank">
+            <li class="mdl-navigation__link" id="PayPal">PayPal</li>
+        </a>
+        <a class="mdl-navigation__link BTCBn">比特币</a>
+        <a class="mdl-navigation__link AliPay">支付宝</a>
+        <a class="mdl-navigation__link WeChat">微信支付</a>
+    </nav>
+</div>
+
+
+    <div class="navbar-placeholder"></div>
+	<div class="mdl-layout__obfuscator"></div>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Header Pic -->
+        <div class="header-pic" style="background-image:url(/images/header/header-pic-2.png);">
+            <div id="page-title">
+                <h1>配置介绍</h1>
+                <h4>version: 1.3.3</h4>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div id="docs-content" style="padding-top: 64px;">
+            <p>这里，我们将介绍主题的基本配置教程，包括 <code>Site Information</code>、<code>Style Settings</code>、<code>Menu Settings</code> 三个部分。</p>
+<h2 id="Site-Information"><a href="https://material.viosey.com/intro/#Site-Information" class="headerlink" title="Site Information"></a>Site Information</h2><h3 id="head"><a href="https://material.viosey.com/intro/#head" class="headerlink" title="head"></a>head</h3><p>用于配置生成的 HTML 文件的头部信息。</p>
+<ul>
+<li>favicon: 网站的 favicon</li>
+<li>high_res_favicon: 高清 favicon</li>
+<li>apple_touch_icon: iOS 主屏按钮图标</li>
+<li>keywords: 网站关键词</li>
+</ul>
+<h3 id="url"><a href="https://material.viosey.com/intro/#url" class="headerlink" title="url"></a>url</h3><p>用于设置跳转链接。</p>
+<ul>
+<li>rss: 设置生成的 rss 或 atom url</li>
+<li>daily_pic: 设置 <code>daily_pic</code> 模块 点击时跳转的 url</li>
+<li>logo: 设置 logo 点击时跳转的 url</li>
+</ul>
+<blockquote>
+<p>如何使用 RSS，请访问文档的<a href="https://material.viosey.com/service/">集成服务</a>，获取启用 RSS 的方法。</p>
+</blockquote>
+<h2 id="Style-Settings"><a href="https://material.viosey.com/intro/#Style-Settings" class="headerlink" title="Style Settings"></a>Style Settings</h2><h3 id="scheme"><a href="https://material.viosey.com/intro/#scheme" class="headerlink" title="scheme"></a>scheme</h3><p>Material 主题提供了多种分支主题外观，亦称「Scheme」。<br>目前 Material 内置三种 Scheme：</p>
+<h4 id="Nexus（开发中）"><a href="https://material.viosey.com/intro/#Nexus（开发中）" class="headerlink" title="Nexus（开发中）"></a>Nexus（开发中）</h4><p>最为标准的 Material Design 样式。</p>
+<h4 id="Paradox"><a href="https://material.viosey.com/intro/#Paradox" class="headerlink" title="Paradox"></a>Paradox</h4><p>默认 Scheme，是 Material 的最初样式。居中布局，图文并茂。</p>
+<h4 id="Isolation"><a href="https://material.viosey.com/intro/#Isolation" class="headerlink" title="Isolation"></a>Isolation</h4><p>Paradox 的至简样式，简洁明了。</p>
+<hr>
+<p>Scheme 的切换通过更改 <strong>主题配置文件</strong>，搜索 <code>scheme</code> 关键字。 你会看到有几行 scheme 的配置，将你需用启用的 scheme 去掉前面注释 <code>#</code> 即可。</p>
+<blockquote>
+<p>例如 - 选择 Paradox Scheme</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#scheme: Nexus</span></div><div class="line"><span class="attr">scheme:</span> Paradox</div><div class="line"><span class="comment">#scheme: Isolation</span></div></pre></td></tr></tbody></table></figure>
+</blockquote>
+<h3 id="uiux"><a href="https://material.viosey.com/intro/#uiux" class="headerlink" title="uiux"></a>uiux</h3><p>用于设置主题 UI 与 UX。</p>
+<ul>
+<li>slogan: 显示在 <code>blog_info</code> 模块中的标语，你可以设置单行标语或者多行标语：</li>
+</ul>
+<blockquote>
+<p>单行标语使用<br></p><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">slogan:</span> 标语（支持 HTML 标签）</div></pre></td></tr></tbody></table></figure><p></p>
+<p>多行标语使用<br></p><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">slogan:</span></div><div class="line"><span class="bullet"> -</span> <span class="string">"标语第一行"</span></div><div class="line"><span class="bullet"> -</span> <span class="string">"标语第二行"</span></div><div class="line"><span class="bullet"> -</span> <span class="string">"标语第三行"</span></div></pre></td></tr></tbody></table></figure><p></p>
+</blockquote>
+<ul>
+<li>theme_color: 主题主要颜色。主题的大部分地方使用此颜色。</li>
+<li>theme_sub_color: 主题辅助颜色。</li>
+<li>hyperlink_color: 超链接颜色。</li>
+<li>button_color: 按钮颜色，例如 <code>toTop</code> 或 <code>menu_button</code>。</li>
+<li>android_chrome_color: 安卓 Chrome 浏览器的地址栏颜色。</li>
+<li>nprogress_color: 页面加载时顶部加载进度条的颜色。</li>
+<li>nprogress_buffer: 页面加载时顶部加载进度条的缓冲时间。</li>
+</ul>
+<h3 id="js-effect"><a href="https://material.viosey.com/intro/#js-effect" class="headerlink" title="js_effect"></a>js_effect</h3><p>用来控制 Material 主题中自带的多种 js 特性。</p>
+<ul>
+<li>fade: 页面加载时部分模块的渐显效果，默认为 true。</li>
+<li>smoothscroll: 页面平滑滚动特效，默认为 false。</li>
+</ul>
+<h3 id="reading"><a href="https://material.viosey.com/intro/#reading" class="headerlink" title="reading"></a>reading</h3><p>用于设置阅读体验。</p>
+<ul>
+<li>entry_excerpt: 首页文章输出摘要的字符长度。默认为 80。</li>
+</ul>
+<blockquote>
+<p>注意，这里设定的字符长度包括 <code>Front-Matter</code> 的长度，但是在首页，<code>Front-Matter</code> 不会显示出来。</p>
+</blockquote>
+<h3 id="thumbnail"><a href="https://material.viosey.com/intro/#thumbnail" class="headerlink" title="thumbnail"></a>thumbnail</h3><p>用于设置文章缩略图相关。</p>
+<ul>
+<li>purecolor: 填入颜色代码。如果文章内无设置缩略图，此项又不为空，则使用纯色缩略图。</li>
+<li>random_amount: 随机图片数量，根据 <code>主题所在文件夹/source/img/random</code> 中的图片数量设置。Material 主题默认提供了 19 张 Material 风格的缩略图。</li>
+</ul>
+<h3 id="background"><a href="https://material.viosey.com/intro/#background" class="headerlink" title="background"></a>background</h3><p>用于设置站点背景。</p>
+<ul>
+<li>purecolor: 填入颜色代码。则站点使用纯色背景。</li>
+<li>bgimg: 背景地址，默认调用 <code>主题文件夹 -&gt; source -&gt; img</code> 中的 <code>bg.png</code>。可更换此图片或者自己填入 url。</li>
+<li>bing: 用于启用“必应美图”的图片作为背景。</li>
+</ul>
+<h3 id="img"><a href="https://material.viosey.com/intro/#img" class="headerlink" title="img"></a>img</h3><p>用于设置站点图片。</p>
+<ul>
+<li>logo: 显示于 <code>blog_info</code> 模块中。</li>
+<li>avatar: 你的头像设置。</li>
+<li>daily_pic: 显示于 <code>daily_pic</code> 模块中。</li>
+<li>sidebar_header: 显示于 <code>sidebar</code> 顶部。</li>
+<li>footerico: 设置 <code>footer</code> 中 SNS 图标的路径。</li>
+<li>random_thumbnail: 随机缩略图的路径。</li>
+<li>footer_image: 你可以在侧边栏底部放置任何你想要的图片。</li>
+</ul>
+<p>以又拍云联盟图标为例，你可以这样配置：</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">footer_image:</span></div><div class="line"><span class="attr">    upyun_logo:</span></div><div class="line"><span class="attr">        link:</span> <span class="string">"https://www.upyun.com/"</span></div><div class="line"><span class="attr">        src:</span> <span class="string">"/img/upyun_logo.svg"</span></div></pre></td></tr></tbody></table></figure>
+<h3 id="fonts"><a href="https://material.viosey.com/intro/#fonts" class="headerlink" title="fonts"></a>fonts</h3><p>用于设置站点的字体。</p>
+<p>默认值为 <code>Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif</code></p>
+<blockquote>
+<p>该字体设定为 Material Design 的规范，如无特殊要求 无需额外修改。<br>当你修改字体时，请在 <code>head.yml</code> 内使用 <code>&lt;link&gt;</code> 标签引用你的字体源。如何使用 <code>head.yml</code>，请访问<a href="https://material.viosey.com/expert/">进阶设定</a>中关于 自定义代码 的部分。</p>
+</blockquote>
+<h3 id="card-elevation"><a href="https://material.viosey.com/intro/#card-elevation" class="headerlink" title="card_elevation"></a>card_elevation</h3><p>用来设置主题卡片阴影。</p>
+<h3 id="qrcode"><a href="https://material.viosey.com/intro/#qrcode" class="headerlink" title="qrcode"></a>qrcode</h3><p>用于在文章页中显示二维码，扫描二维码即可直接打开文章。<br>需要 <code>hexo-helper-qrcode</code> 支持，使用 <code>npm install hexo-helper-qrcode --save</code> 进行安装。</p>
+<h2 id="Menu-Settings"><a href="https://material.viosey.com/intro/#Menu-Settings" class="headerlink" title="Menu Settings"></a>Menu Settings</h2><h3 id="sns"><a href="https://material.viosey.com/intro/#sns" class="headerlink" title="sns"></a>sns</h3><p>用于填写你的 SNS 信息，其中 <code>email</code> 会显示在侧边栏，其他信息会以按钮的形式显示在 <code>footer</code>。</p>
+<ul>
+<li>email</li>
+<li>twitter</li>
+<li>facebook</li>
+<li>googleplus</li>
+<li>weibo</li>
+<li>instagram</li>
+<li>tumblr</li>
+<li>github</li>
+<li>linkedin</li>
+<li>facebook</li>
+</ul>
+<h3 id="sns-share"><a href="https://material.viosey.com/intro/#sns-share" class="headerlink" title="sns_share"></a>sns_share</h3><p>用于定义分享菜单中的项目， <code>false</code> 的项将不会显示在分享菜单中。</p>
+<ul>
+<li>twitter</li>
+<li>googleplus</li>
+<li>weibo</li>
+<li>linkedin</li>
+<li>qq</li>
+<li>telegram</li>
+</ul>
+<h3 id="dropdown"><a href="https://material.viosey.com/intro/#dropdown" class="headerlink" title="dropdown"></a>dropdown</h3><p>用于设置 Paradox 侧边栏用户下拉菜单，默认为空。</p>
+<blockquote>
+<p>参考配置样式</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">dropdown:</span></div><div class="line">	Email Me:</div><div class="line">		link: <span class="string">"mailto: someone@example.com"</span></div><div class="line">		icon: email</div></pre></td></tr></tbody></table></figure>
+</blockquote>
+<h3 id="homepage"><a href="https://material.viosey.com/intro/#homepage" class="headerlink" title="homepage"></a>homepage</h3><p>设置 “主页” 按钮</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">use:</span> 设置 <span class="literal">true</span> 时会在侧边栏显示 “主页” 按钮.</div><div class="line"><span class="attr">icon:</span> 在 “主页” 前面显示一个 Material 图标。为空和被注释时则不显示.</div><div class="line"><span class="attr">divider:</span> 设置成 <span class="literal">true</span></div><div class="line">archives</div></pre></td></tr></tbody></table></figure>
+<h3 id="archives"><a href="https://material.viosey.com/intro/#archives" class="headerlink" title="archives"></a>archives</h3><p>用来设置归档下拉菜单。</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">use:</span> 设置成 <span class="literal">true</span> 时在侧边栏显示归档。</div><div class="line"><span class="attr">icon:</span> 为归档添加一个 Material Icon，注释掉或为空则不显示 Icon</div><div class="line"><span class="attr">divider:</span> 设置成 <span class="literal">true</span> 后会在归档按钮底部增加一条分割线。</div></pre></td></tr></tbody></table></figure>
+<h3 id="categories"><a href="https://material.viosey.com/intro/#categories" class="headerlink" title="categories"></a>categories</h3><p>用来设置分类显示按钮。</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">use:</span> 设为 <span class="literal">true</span> 在侧边栏显示分类按钮。</div><div class="line"><span class="attr">icon:</span> 在分类按钮前显示一个 Material Icon，注释掉或为空则不显示 Icon</div><div class="line"><span class="attr">divider:</span> 设置成 <span class="literal">true</span> 后会在归档按钮底部增加一条分割线。</div></pre></td></tr></tbody></table></figure>
+<h3 id="pages"><a href="https://material.viosey.com/intro/#pages" class="headerlink" title="pages"></a>pages</h3><p>用于设置独立页面的入口，默认为空。填写条目后独立页面入口将显示在：</p>
+<ul>
+<li><code>logo card</code> 的 <code>Page</code> 按钮下拉菜单中。(Scheme Paradox)</li>
+<li>侧边栏。(Scheme Paradox)</li>
+<li>站点左侧。(Scheme Isolation)</li>
+</ul>
+<p>请按照如下样例添加个人独立页面。 </p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="attr">pages:</span></div><div class="line"><span class="attr">    About:</span></div><div class="line"><span class="attr">        link:</span> <span class="string">"#about"</span></div><div class="line"><span class="attr">        icon:</span> person</div><div class="line"><span class="attr">        divider:</span> <span class="literal">false</span></div></pre></td></tr></tbody></table></figure>
+<p>作为一个单位。</p>
+<ul>
+<li>Name 是该独立页面的名称，请自行修改。</li>
+<li>link 的参数为相对路径，对应 hexo 目录下的 <code>source</code> 文件夹内的相应文件夹。</li>
+<li>icon 的参数为自定义的 Material 图标，可用图标可在 <a href="https://material.io/icons/" target="_blank" rel="external">Material icons</a> 查询。</li>
+<li>divider 设置成 true 后会在该条目底部增加一条分割线</li>
+</ul>
+<h3 id="article-num"><a href="https://material.viosey.com/intro/#article-num" class="headerlink" title="article_num"></a>article_num</h3><p>在主题的侧边栏显示文章总数。</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">use:</span> 设置成 <span class="literal">true</span> 时会在侧边栏显示文章总数。</div><div class="line"><span class="attr">divider:</span> 设置成 <span class="literal">true</span> 后会在该条目底部增加一条分割线。</div></pre></td></tr></tbody></table></figure>
+<h3 id="footer"><a href="https://material.viosey.com/intro/#footer" class="headerlink" title="footer"></a>footer</h3><p>配置侧边栏的底部</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">divider:</span> 设置成 <span class="literal">true</span> 后会在侧边栏底部之前增加一条分割线。</div><div class="line"><span class="attr">theme:</span> 设置成 <span class="literal">true</span> 后会在侧边栏底部增加一个指向 Material 主题的链接。</div></pre></td></tr></tbody></table></figure>
+<h3 id="Qrcode"><a href="https://material.viosey.com/intro/#Qrcode" class="headerlink" title="Qrcode"></a>Qrcode</h3><p>用于在文章页中显示二维码，扫描二维码即可直接打开文章。<br>需要 <code>hexo-helper-qrcode</code> 支持，使用 <code>npm install hexo-helper-qrcode --save</code> 进行安装。</p>
+<h2 id="Integrated-Services"><a href="https://material.viosey.com/intro/#Integrated-Services" class="headerlink" title="Integrated Services"></a>Integrated Services</h2><p>请参考 <a href="https://material.viosey.com/services/">集成服务</a></p>
+
+        </div>
+
+        <ol class="toc" style="top: 328px;"><li class="toc-item toc-level-2"><a class="toc-link" href="https://material.viosey.com/intro/#Site-Information"><span class="toc-text">Site Information</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#head"><span class="toc-text">head</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#url"><span class="toc-text">url</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="https://material.viosey.com/intro/#Style-Settings"><span class="toc-text">Style Settings</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#scheme"><span class="toc-text">scheme</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="https://material.viosey.com/intro/#Nexus（开发中）"><span class="toc-text">Nexus（开发中）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="https://material.viosey.com/intro/#Paradox"><span class="toc-text">Paradox</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="https://material.viosey.com/intro/#Isolation"><span class="toc-text">Isolation</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#uiux"><span class="toc-text">uiux</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#js-effect"><span class="toc-text">js_effect</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#reading"><span class="toc-text">reading</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#thumbnail"><span class="toc-text">thumbnail</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#background"><span class="toc-text">background</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#img"><span class="toc-text">img</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#fonts"><span class="toc-text">fonts</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#card-elevation"><span class="toc-text">card_elevation</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#qrcode"><span class="toc-text">qrcode</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="https://material.viosey.com/intro/#Menu-Settings"><span class="toc-text">Menu Settings</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#sns"><span class="toc-text">sns</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#sns-share"><span class="toc-text">sns_share</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#dropdown"><span class="toc-text">dropdown</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#homepage"><span class="toc-text">homepage</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#archives"><span class="toc-text">archives</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#categories"><span class="toc-text">categories</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#pages"><span class="toc-text">pages</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#article-num"><span class="toc-text">article_num</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#footer"><span class="toc-text">footer</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="https://material.viosey.com/intro/#Qrcode"><span class="toc-text">Qrcode</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="https://material.viosey.com/intro/#Integrated-Services"><span class="toc-text">Integrated Services</span></a></li></ol>
+
+        <!-- Footer -->
+        <footer class="material-footer mdl-mega-footer">
+    <div class="mdl-mega-footer--top-section">
+        <div class="mdl-mega-footer--left-section">
+            <a href="https://github.com/viosey/hexo-theme-material" target="_blank">
+                <button class="mdl-mega-footer--social-btn"><img src="./配置介绍 _ Material Theme_files/github1.svg"></button>
+            </a>
+            &nbsp;
+            <a href="https://www.instagram.com/material.theme/" target="_blank">
+                <button class="mdl-mega-footer--social-btn"><img src="./配置介绍 _ Material Theme_files/instagram1.svg"></button>
+            </a>
+            &nbsp;
+            <a href="https://twitter.com/viosey" target="_blank">
+                <button class="mdl-mega-footer--social-btn"><img src="./配置介绍 _ Material Theme_files/twitter1.svg"></button>
+            </a>
+        </div>
+        <div class="mdl-mega-footer--right-section">
+            <a class="mdl-typography--font-light toTop" href="https://material.viosey.com/intro/#top">
+							Back to Top
+							<i class="material-icons">expand_less</i>
+						  </a>
+        </div>
+    </div>
+
+    <div class="mdl-mega-footer--middle-section">
+        <p class="mdl-typography--font-light">© 2016 <a href="https://viosey.com/" target="_blank">Viosey</a></p>
+        <p class="mdl-typography--font-light">Made with ♥</p>
+    </div>
+
+    <div class="mdl-mega-footer--bottom-section">
+
+        <!-- Donate -->
+        <a class="material-link material-link-menu mdl-typography--font-light" id="version-dropdown">
+            <span>捐赠</span>
+            <i class="material-icons">arrow_drop_up</i>
+        </a>
+        <div class="mdl-menu__container is-upgraded"><div class="mdl-menu__outline mdl-menu--top-left"></div><ul id="donateBox" class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events" for="version-dropdown" data-upgraded=",MaterialMenu,MaterialRipple">
+            <a href="https://www.paypal.me/viosey" target="_blank">
+                <li class="mdl-menu__item mdl-js-ripple-effect" id="PayPal" tabindex="-1" data-upgraded=",MaterialRipple">PayPal<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
+            </a>
+            <li class="mdl-menu__item BTCBn mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">比特币<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
+            <li class="mdl-menu__item AliPay mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">支付宝<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
+            <li class="mdl-menu__item WeChat mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">微信支付<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
+        </ul></div>
+
+        <!-- Discussion -->
+        <a class="material-link mdl-typography--font-light" href="https://0gitter.im/material-theme/hexo" target="_blank">加入讨论</a>
+
+        <!-- Feedback -->
+        <a class="material-link mdl-typography--font-light" href="https://github.com/viosey/hexo-theme-material/issues" target="_blank">问题反馈</a>
+
+        <!-- Changelog -->
+        <a class="material-link mdl-typography--font-light" href="https://github.com/viosey/hexo-theme-material/releases" target="_blank">更新日志</a>
+
+        <!-- Docs -->
+        <a class="material-link mdl-typography--font-light" href="https://github.com/viosey/material-theme-docs" target="_blank">文档的 Github</a>
+
+    </div>
+
+</footer>
+
+    </div>
+
+
+    <!-- Sticky Toc & Navbar -->
+    <script>
+        var $elm = $('.toc');
+        var $navbar = $(".material-header");
+
+        var navHeight = $navbar.outerHeight();
+        var startPos = $elm.offset().top;
+
+        $("body").css("margin-top", navHeight);
+        $("#docs-content").css("padding-top", navHeight);
+
+        $(window).scroll(function() {
+            var p = $(window).scrollTop();
+            var min = $("#docs-content").offset().top;
+
+            if( $navbar.offset().top !== 0){
+                $navbar.css("box-shadow", "0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)");
+            } else {
+                $navbar.css("box-shadow", "none");
+            }
+
+            if( p > (min) ){
+                $elm.css({
+                    'top': navHeight
+                });
+            } else {
+                $elm.css({
+                    'top': min - p + navHeight
+                });
+          }
+        });
+
+        var lastScrollTop = 0;
+        $(window).scroll(function(event){
+            var st = $(this).scrollTop();
+            if ( (st > lastScrollTop) && ($(window).scrollTop() > $("#docs-content").offset().top)){
+                $(".material-header").css("opacity", "0");
+            } else {
+                $(".material-header").css("opacity", "1");
+            }
+            lastScrollTop = st;
+        });
+    </script>
+
+    <!-- Mobile Hambuger -->
+    <script>
+		$(".mdl-layout__drawer-button").click(function() {
+			if ($(".material-drawer").hasClass("is-visible")) {
+				$(".material-drawer").removeClass("is-visible")
+			} else {
+				$(".material-drawer").addClass("is-visible");
+			}
+			if ($(".mdl-layout__obfuscator").hasClass("is-visible")) {
+				$(".mdl-layout__obfuscator").removeClass("is-visible")
+			} else {
+				$(".mdl-layout__obfuscator").addClass("is-visible");
+			}
+			document.documentElement.style.overflow = "hidden";
+		});
+
+		$(".mdl-layout__obfuscator").click(function() {
+			if ($(".material-drawer").hasClass("is-visible")) {
+				$(".material-drawer").removeClass("is-visible")
+			}
+			if ($(".mdl-layout__obfuscator").hasClass("is-visible")) {
+				$(".mdl-layout__obfuscator").removeClass("is-visible")
+			}
+			document.documentElement.style.overflow = "scroll";
+		});
+	</script>
+
+
+        </div>
+        
+    <script src="./配置介绍 _ Material Theme_files/material.min.js.下载"></script>
+<script src="./配置介绍 _ Material Theme_files/search.min.js.下载"></script>
+
+
+<div id="QRBox-wrapper">
+    <div id="QRBox" class="pos-f left-100">
+        <div id="MainBox"></div>
+    </div>
+</div>
+
+<!-- Donation QRcode-->
+<script>
+    $(".BTCBn").click(function () {
+        $("#QRBox-wrapper").css({
+            'width': '100%',
+            'height': '100%',
+            'background-color': 'rgba(255,255,255,0.8)',
+            'z-index': '99'
+        });
+        $("#QRBox").css({
+            'background-image': 'url(/images/donate/BTCQR.png)',
+            'opacity': '1'
+
+        });
+
+        if ($(".material-drawer").hasClass("is-visible")) {
+            $(".material-drawer").removeClass("is-visible")
+        };
+        if ($(".mdl-layout__obfuscator").hasClass("is-visible")) {
+            $(".mdl-layout__obfuscator").removeClass("is-visible")
+        };
+    });
+    $(".AliPay").click(function () {
+        $("#QRBox-wrapper").css({
+            'width': '100%',
+            'height': '100%',
+            'background-color': 'rgba(255,255,255,0.8)',
+            'z-index': '99'
+        });
+        $("#QRBox").css({
+            'background-image': 'url(/images/donate/AliPayQR.png)',
+            'opacity': '1'
+
+        });
+
+        if ($(".material-drawer").hasClass("is-visible")) {
+            $(".material-drawer").removeClass("is-visible")
+        };
+        if ($(".mdl-layout__obfuscator").hasClass("is-visible")) {
+            $(".mdl-layout__obfuscator").removeClass("is-visible")
+        };
+    });
+    $(".WeChat").click(function () {
+        $("#QRBox-wrapper").css({
+            'width': '100%',
+            'height': '100%',
+            'background-color': 'rgba(255,255,255,0.8)',
+            'z-index': '99'
+        });
+        $("#QRBox").css({
+            'background-image': 'url(/images/donate/WeChanQR.png)',
+            'opacity': '1'
+        });
+
+        if ($(".material-drawer").hasClass("is-visible")) {
+            $(".material-drawer").removeClass("is-visible")
+        };
+        if ($(".mdl-layout__obfuscator").hasClass("is-visible")) {
+            $(".mdl-layout__obfuscator").removeClass("is-visible")
+        };
+    });
+
+    $("#QRBox-wrapper").click(function () {
+        $(this).css({
+            'width': '0',
+            'height': '0',
+            'z-index': '-10'
+        });
+        $("#QRBox").css({
+            'background-image': 'url()',
+            'opacity': '0'
+
+        });
+    });
+</script>
+
+<!-- Change Language-->
+<script>
+    $(document).ready(function () {
+        // Display current Language   
+        if (window.location.pathname.indexOf("en") > -1) {
+            $("#lang-select").val('en');
+        }
+
+        // Click to change
+        $('#lang-select').change(function () {
+            var targetLang = $(this).val() + "/";
+
+            if ($(this).val() == "zh-cn") targetLang = "";
+            location.href = "/" + targetLang;
+        });
+    });
+</script>
+
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-83419544-1', 'auto');
+    ga('send', 'pageview');
+</script>
+    
+<st-div id="__selection-translator__"> <st-div class="__st-box__" style="display: none; position: fixed; z-index: 99999; left: 0px; top: 0px; transform: translateX(201px) translateY(174px);"> <st-header> <st-span class="st-icon-pin" title="固定"></st-span> <st-span class="st-icon-down-open" title="展开"></st-span> <st-span class="st-icon-cog" title="设置"></st-span> </st-header> <st-div class="__query-form__" style="display: none;"> <st-div> <textarea placeholder="输入要翻译的句子或单词"></textarea> </st-div> <st-div> <select> <option value="">自动判断</option> <option value="zh">中文</option><option value="zh-CN">中文(简体)</option><option value="zh-HK">中文(香港)</option><option value="zh-TW">中文(繁体)</option><option value="en">英语</option><option value="ja">日语</option><option value="ko">朝鲜语</option><option value="de">德语</option><option value="fr">法语</option><option value="ru">俄语</option><option value="th">泰语</option><option value="af">南非语</option><option value="ar">阿拉伯语</option><option value="az">阿塞拜疆语</option><option value="be">比利时语</option><option value="bg">保加利亚语</option><option value="ca">加泰隆语</option><option value="cs">捷克语</option><option value="cy">威尔士语</option><option value="da">丹麦语</option><option value="dv">第维埃语</option><option value="el">希腊语</option><option value="eo">世界语</option><option value="es">西班牙语</option><option value="et">爱沙尼亚语</option><option value="eu">巴士克语</option><option value="fa">法斯语</option><option value="fi">芬兰语</option><option value="fo">法罗语</option><option value="gl">加里西亚语</option><option value="gu">古吉拉特语</option><option value="he">希伯来语</option><option value="hi">印地语</option><option value="hr">克罗地亚语</option><option value="hu">匈牙利语</option><option value="hy">亚美尼亚语</option><option value="id">印度尼西亚语</option><option value="is">冰岛语</option><option value="it">意大利语</option><option value="ka">格鲁吉亚语</option><option value="kk">哈萨克语</option><option value="kn">卡纳拉语</option><option value="kok">孔卡尼语</option><option value="ky">吉尔吉斯语</option><option value="lt">立陶宛语</option><option value="lv">拉脱维亚语</option><option value="mi">毛利语</option><option value="mk">马其顿语</option><option value="mn">蒙古语</option><option value="mr">马拉地语</option><option value="ms">马来语</option><option value="mt">马耳他语</option><option value="nb">挪威语(伯克梅尔)</option><option value="nl">荷兰语</option><option value="ns">北梭托语</option><option value="pa">旁遮普语</option><option value="pl">波兰语</option><option value="pt">葡萄牙语</option><option value="qu">克丘亚语</option><option value="ro">罗马尼亚语</option><option value="sa">梵文</option><option value="se">北萨摩斯语</option><option value="sk">斯洛伐克语</option><option value="sl">斯洛文尼亚语</option><option value="sq">阿尔巴尼亚语</option><option value="sv">瑞典语</option><option value="sw">斯瓦希里语</option><option value="syr">叙利亚语</option><option value="ta">泰米尔语</option><option value="te">泰卢固语</option><option value="tl">塔加路语</option><option value="tn">茨瓦纳语</option><option value="tr">土耳其语</option><option value="ts">宗加语</option><option value="tt">鞑靼语</option><option value="uk">乌克兰语</option><option value="ur">乌都语</option><option value="uz">乌兹别克语</option><option value="vi">越南语</option><option value="xh">班图语</option><option value="zu">祖鲁语</option> </select> <st-div class="__exchange__"> <st-span class="st-icon-exchange"></st-span> </st-div> <select> <option value="">自动选择</option> <option value="zh">中文</option><option value="zh-CN">中文(简体)</option><option value="zh-HK">中文(香港)</option><option value="zh-TW">中文(繁体)</option><option value="en">英语</option><option value="ja">日语</option><option value="ko">朝鲜语</option><option value="de">德语</option><option value="fr">法语</option><option value="ru">俄语</option><option value="th">泰语</option><option value="af">南非语</option><option value="ar">阿拉伯语</option><option value="az">阿塞拜疆语</option><option value="be">比利时语</option><option value="bg">保加利亚语</option><option value="ca">加泰隆语</option><option value="cs">捷克语</option><option value="cy">威尔士语</option><option value="da">丹麦语</option><option value="dv">第维埃语</option><option value="el">希腊语</option><option value="eo">世界语</option><option value="es">西班牙语</option><option value="et">爱沙尼亚语</option><option value="eu">巴士克语</option><option value="fa">法斯语</option><option value="fi">芬兰语</option><option value="fo">法罗语</option><option value="gl">加里西亚语</option><option value="gu">古吉拉特语</option><option value="he">希伯来语</option><option value="hi">印地语</option><option value="hr">克罗地亚语</option><option value="hu">匈牙利语</option><option value="hy">亚美尼亚语</option><option value="id">印度尼西亚语</option><option value="is">冰岛语</option><option value="it">意大利语</option><option value="ka">格鲁吉亚语</option><option value="kk">哈萨克语</option><option value="kn">卡纳拉语</option><option value="kok">孔卡尼语</option><option value="ky">吉尔吉斯语</option><option value="lt">立陶宛语</option><option value="lv">拉脱维亚语</option><option value="mi">毛利语</option><option value="mk">马其顿语</option><option value="mn">蒙古语</option><option value="mr">马拉地语</option><option value="ms">马来语</option><option value="mt">马耳他语</option><option value="nb">挪威语(伯克梅尔)</option><option value="nl">荷兰语</option><option value="ns">北梭托语</option><option value="pa">旁遮普语</option><option value="pl">波兰语</option><option value="pt">葡萄牙语</option><option value="qu">克丘亚语</option><option value="ro">罗马尼亚语</option><option value="sa">梵文</option><option value="se">北萨摩斯语</option><option value="sk">斯洛伐克语</option><option value="sl">斯洛文尼亚语</option><option value="sq">阿尔巴尼亚语</option><option value="sv">瑞典语</option><option value="sw">斯瓦希里语</option><option value="syr">叙利亚语</option><option value="ta">泰米尔语</option><option value="te">泰卢固语</option><option value="tl">塔加路语</option><option value="tn">茨瓦纳语</option><option value="tr">土耳其语</option><option value="ts">宗加语</option><option value="tt">鞑靼语</option><option value="uk">乌克兰语</option><option value="ur">乌都语</option><option value="uz">乌兹别克语</option><option value="vi">越南语</option><option value="xh">班图语</option><option value="zu">祖鲁语</option> </select> </st-div> <st-div> <select> <option value="YouDao">有道翻译</option> <option value="BaiDu">百度翻译</option> <option value="Bing">必应翻译</option> <option value="Google">谷歌翻译</option> <option value="GoogleCN">谷歌翻译（国内）</option> </select> <st-div class="__action-list__"> <st-div class="__button__ __btn-translate__">翻译 <st-span class="st-icon-down-dir"></st-span> </st-div> <st-div class="__expand__"> <st-div class="__button__">朗读</st-div> <st-div class="__button__">复制</st-div> </st-div> </st-div> </st-div> </st-div> <st-div class="__translate-result__" style="display: none;">正在查询，请稍候……</st-div> <st-div class="__translate-result__"> <st-div style="display: none;"> <st-span></st-span> <st-span class="__retry__">重试</st-span> </st-div> <st-div> <st-div class="__phonetic__"> <st-span style="display: none;"></st-span> <st-span class="__copy-and-read__"> <st-span>朗读</st-span> <st-span style="display: none;">复制</st-span> </st-span> </st-div> <st-div style="display: none;"> <st-ul>  </st-ul> <st-div class="__copy-and-read__"> <st-span class="__copy-and-read__">复制</st-span> </st-div> </st-div> <st-div style="display: none;">  <st-div class="__copy-and-read__"> <st-span class="__copy-and-read__">朗读</st-span> <st-span class="__copy-and-read__">复制</st-span> </st-div> </st-div> </st-div> </st-div> <st-footer> <st-span style="display: none;">via <a target="_blank" href="https://material.viosey.com/intro/"></a></st-span> </st-footer> </st-div> <st-div class="__st-btn__" style="display: block; position: fixed; z-index: 99999; left: 0px; top: 0px; transform: translateX(201px) translateY(174px);">译</st-div> </st-div></body></html>

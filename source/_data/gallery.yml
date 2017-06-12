@@ -1,0 +1,29 @@
+pic_1:
+  full_link: pics/1.jpg
+  thumb_link: pics/1.jpg
+  descr: "w1"
+
+pic_2:
+  full_link: pics/2.jpg
+  thumb_link: pics/2.jpg
+  descr: "w2"
+
+pic_3:
+  full_link: pics/3.jpg
+  thumb_link: pics/3.jpg
+  descr: "w3"
+
+pic_4:
+  full_link: pics/4.jpg
+  thumb_link: pics/4.jpg
+  descr: "w4"
+
+pic_5:
+  full_link: pics/5.jpg
+  thumb_link: pics/5.jpg
+  descr: "w5"
+
+pic_6:
+  full_link: pics/6.jpg
+  thumb_link: pics/6.jpg
+  descr: "w6"
