@@ -36,5 +36,12 @@ hexo new %1 #新建指定名称的博文
 
 **缺点**：source文件夹和public文件夹重复的文件都会占用云盘空间
 
+****
+更新:
+在CI自动部署时，本地public文件夹为空，编译在CI执行，源文件blog-source备份于GoogleDrive，push于远程库的blog-source分支，安全，跨平台。
+
+> 此更新写于安卓端(Pocket Git + JotterPad)
+****
+
 ### 自动检测文件变化并编译（安装 Hexo Server）
 > 参考hexo官方文档
