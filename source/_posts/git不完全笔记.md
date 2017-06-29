@@ -8,6 +8,13 @@ tags:
 
 ## hexo搭博客时用到的git命令
 
+- **ssh免密登录github**
+
+```bash
+ssh-keygen -t rsa -C "hanziqiabc@gmail.com"
+```
+key生成于~/.ssh/id_rsa.pub
+
 - **关联远程仓库**:
 
 ```bash
