@@ -64,3 +64,10 @@ git add .
 git commit -m 'update .gitignore'
 ```
 
+- **cmder 之 绿色版git for win 中文路径问题**——[文](http://939999807.iteye.com/blog/2227859)
+
+
+`git status` 显示中文路径乱码。
+> 在git项目目录中执行`git config core.quotepath false`就可以解决了
+
+> 也可以执行`git config --global core.quotepath false`进行全局设置
