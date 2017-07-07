@@ -5,9 +5,11 @@ tags:
 	- python
 ---
 
+
 `mycmd`下新建`ss.bat`
 
-```shell
+
+```
 #更新密码
 ssr/ss.py
 #启动 SS
