@@ -13,7 +13,7 @@ tags:
 3. 进入 chardet 目录，执行以下命令`python setup.py install`
 
 
-```
+```bash
 Installed d:\program files (x86)\python27\lib\site-packages\chardet-3.0.4-py2.7.egg
 Processing dependencies for chardet==3.0.4
 Finished processing dependencies for chardet==3.0.4

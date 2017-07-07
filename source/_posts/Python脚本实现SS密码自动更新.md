@@ -5,21 +5,21 @@ tags:
 	- python
 ---
 
+mycmd下新建ss.bat
 
-`mycmd`下新建`ss.bat`
 
-
-```
-#更新密码
+```bash
+# 更新密码
 ssr/ss.py
-#启动 SS
+# 启动 SS
 ssr/ss.exe
-
 ```
 
 CodeBak
 
 File:`ss.py`
+
+
 
 ```python
 import zbar
