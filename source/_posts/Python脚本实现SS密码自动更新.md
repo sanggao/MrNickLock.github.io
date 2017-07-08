@@ -53,11 +53,10 @@ for symbol in image:
     # with open('p1.txt', 'w') as f:
     #     f.write(pwd)
 
-f=open('gui-config.json','r+')
+f=open('D:\\green\\ShadowsocksR\\gui-config.json','r+')
 flist=f.readlines()
-#替换第26行
 flist[25]='          \"password\" : \"'+pwd+'\",\n'
-f=open('gui-config.json','w+')
+f=open('D:\\green\\ShadowsocksR\\gui-config.json','w+')
 f.writelines(flist)
 
 
