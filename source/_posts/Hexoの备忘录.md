@@ -17,6 +17,9 @@ thumbnail:
 - mycmd下新建blog.bat
 - 写入命令如下：
 
+***
+`old code`
+
 ```bash
 cd d:\GoogleDrive\NoteBook\blog\source\_posts #切入博文目录
 explorer .  #在资源管理器中打开当前目录
@@ -25,6 +28,24 @@ hexo new %1 #新建指定名称的博文
 > 键入`blog 博文标题`命令，`hexo new %1` 接收传递的第一个参数 `%1` 作为新博文名称。
  
 *注*：原计划新建博文，并用sublime打开编辑，无奈hexo new命令之后就中断了，退而求其次，才有了如上方法。日后改进。
+
+***
+**更新**
+优化体验：
+
+- 不再自动打开资源管理器；
+- 自动用sublime打开新笔记
+
+```bash
+
+d:                                            
+cd d:\GoogleDrive\NoteBook\blog\source\_posts                             
+if "%1"=="" goto :end                         
+st %1.md #先打开空的新笔记
+hexo new %1 #hexo new 写入信息，st可自动刷新
+:end                                          
+echo 退出                                       
+```
 
 ### 博客源文件备份（搭配GoogleDrive）
 
