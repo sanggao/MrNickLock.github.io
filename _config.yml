@@ -64,8 +64,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: 
-  #next 
-  material
+  next 
+  #material
 #代码高亮 插件
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
