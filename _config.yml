@@ -69,7 +69,14 @@ theme:
 #代码高亮 插件
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
-  theme: 'default'
+  theme: 
+    # 'default'
+    # dark
+    # okaidia
+    # funky
+    # solarizedlight
+    tomorrow
+    # twilight
   line_number: true    # default false
 
 # Deployment
