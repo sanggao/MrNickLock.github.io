@@ -10,6 +10,8 @@ layout: about
 
 - 热爱折腾技术;
 - 喜欢结交志趣相投的朋友;
-- Gakki 粉
+- G粉
+	- ❤Google
+	- ❤Gakki
 
 > 评论系统需要科学上网
