@@ -5,5 +5,4 @@ tags:
 ---
 
 
-为方便移动端书写，博客迁移至VPS，[NickのBlog](https://blog.nickhoo.com/)..
-.
+为方便移动端书写，以及Dropbox自动同步，博客迁移至VPS，[NickHoo.com](https://nickhoo.com/)
